@@ -1,0 +1,71 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/home/gavin/.cache/CPM/openmesh/a549ba9d4a6604b06aa5dd111630d534f573cdf8/OpenMesh/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 196,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 200,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "libdata/pkgconfig",
+			"paths" : 
+			[
+				"out/build/release/_deps/openmesh-build/openmesh.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "share/OpenMesh/cmake",
+			"exportName" : "OpenMeshConfig",
+			"exportTargets" : 
+			[
+				{
+					"id" : "OpenMeshCore::@be75b8f49d519472074f",
+					"index" : 1
+				},
+				{
+					"id" : "OpenMeshTools::@2a32f7024e79914d4ffc",
+					"index" : 3
+				}
+			],
+			"paths" : 
+			[
+				"_deps/openmesh-build/CMakeFiles/Export/share/OpenMesh/cmake/OpenMeshConfig.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/openmesh-build",
+		"source" : "/home/gavin/.cache/CPM/openmesh/a549ba9d4a6604b06aa5dd111630d534f573cdf8/OpenMesh"
+	}
+}

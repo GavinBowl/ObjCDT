@@ -1,0 +1,61 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"ADD_CUSTOM_TARGET",
+			"vci_create_doc_target",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"/home/gavin/.cache/CPM/openmesh/a549ba9d4a6604b06aa5dd111630d534f573cdf8/OpenMesh/cmake-library/VCI/VCIDoxygen.cmake",
+			"/home/gavin/.cache/CPM/openmesh/a549ba9d4a6604b06aa5dd111630d534f573cdf8/OpenMesh/Doc/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 119,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "doc-install::@ece2e94f590986da83e7"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Documentation"
+	},
+	"id" : "doc::@ece2e94f590986da83e7",
+	"name" : "doc",
+	"paths" : 
+	{
+		"build" : "_deps/openmesh-build/Doc",
+		"source" : "/home/gavin/.cache/CPM/openmesh/a549ba9d4a6604b06aa5dd111630d534f573cdf8/OpenMesh/Doc"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

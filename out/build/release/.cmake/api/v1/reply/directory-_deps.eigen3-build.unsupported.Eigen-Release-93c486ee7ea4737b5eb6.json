@@ -1,0 +1,79 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Devel",
+			"destination" : "include/eigen3/unsupported/Eigen",
+			"paths" : 
+			[
+				"/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen/AdolcForward",
+				"/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen/AlignedVector3",
+				"/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen/ArpackSupport",
+				"/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen/AutoDiff",
+				"/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen/BVH",
+				"/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen/EulerAngles",
+				"/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen/FFT",
+				"/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen/IterativeSolvers",
+				"/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen/KroneckerProduct",
+				"/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen/LevenbergMarquardt",
+				"/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen/MatrixFunctions",
+				"/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen/MoreVectorization",
+				"/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen/MPRealSupport",
+				"/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen/NonLinearOptimization",
+				"/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen/NumericalDiff",
+				"/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen/OpenGLSupport",
+				"/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen/Polynomials",
+				"/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen/Skyline",
+				"/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen/SparseExtra",
+				"/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen/SpecialFunctions",
+				"/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen/Splines"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Devel",
+			"destination" : "include/eigen3/unsupported/Eigen",
+			"paths" : 
+			[
+				"/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen/src"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/eigen3-build/unsupported/Eigen",
+		"source" : "/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/openmesh-build/Doc",
+		"source" : "/home/gavin/.cache/CPM/openmesh/a549ba9d4a6604b06aa5dd111630d534f573cdf8/OpenMesh/Doc"
+	}
+}

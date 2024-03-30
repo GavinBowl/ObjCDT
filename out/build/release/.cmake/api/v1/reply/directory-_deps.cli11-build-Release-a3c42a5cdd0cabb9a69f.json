@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/cli11-build",
+		"source" : "/home/gavin/.cache/CPM/cli11/c6d7768d77db544291ec5a7a88dec2de121cb7a0/cli11"
+	}
+}

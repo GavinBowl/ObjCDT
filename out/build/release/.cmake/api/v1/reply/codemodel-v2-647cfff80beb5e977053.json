@@ -1,0 +1,598 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						10,
+						11,
+						12,
+						13
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "_deps/eigen3-build",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						7,
+						8,
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.eigen3-build-Release-0ca3b2d943a856f7ef53.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "_deps/eigen3-build/blas",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.eigen3-build.blas-Release-1192fa59dcfe1626838f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/blas",
+					"targetIndexes" : 
+					[
+						5,
+						9,
+						10
+					]
+				},
+				{
+					"build" : "_deps/eigen3-build/lapack",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.eigen3-build.lapack-Release-b4eb5f75787a14c4eeb4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/lapack",
+					"targetIndexes" : 
+					[
+						11,
+						12,
+						14
+					]
+				},
+				{
+					"build" : "_deps/eigen3-build/unsupported",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.eigen3-build.unsupported-Release-f829d75c982b19acd4e4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported"
+				},
+				{
+					"build" : "_deps/eigen3-build/unsupported/Eigen",
+					"childIndexes" : 
+					[
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.eigen3-build.unsupported.Eigen-Release-93c486ee7ea4737b5eb6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen"
+				},
+				{
+					"build" : "_deps/eigen3-build/unsupported/Eigen/CXX11",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.eigen3-build.unsupported.Eigen.CXX11-Release-7c3aa17a9e1ee1a92242.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 1,
+					"source" : "/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/unsupported/Eigen/CXX11"
+				},
+				{
+					"build" : "_deps/eigen3-build/demos",
+					"jsonFile" : "directory-_deps.eigen3-build.demos-Release-f4390c6f3a26295d5c0b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/demos",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "_deps/eigen3-build/scripts",
+					"jsonFile" : "directory-_deps.eigen3-build.scripts-Release-a28b402fc3bdf50c56b6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/scripts"
+				},
+				{
+					"build" : "_deps/eigen3-build/bench/spbench",
+					"jsonFile" : "directory-_deps.eigen3-build.bench.spbench-Release-3b2ce97c803d323f93c1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/home/gavin/.cache/CPM/eigen3/27cd770b77ca57782e9c75caa5d57240292da54e/Eigen3/bench/spbench",
+					"targetIndexes" : 
+					[
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "_deps/cli11-build",
+					"jsonFile" : "directory-_deps.cli11-build-Release-a3c42a5cdd0cabb9a69f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "/home/gavin/.cache/CPM/cli11/c6d7768d77db544291ec5a7a88dec2de121cb7a0/cli11"
+				},
+				{
+					"build" : "_deps/fmt-build",
+					"jsonFile" : "directory-_deps.fmt-build-Release-1a1a50f9cc2c299204ef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "/home/gavin/.cache/CPM/fmt/aea99c44bf7a75965daca3be90236fcc75ba768c/fmt",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "_deps/spdlog-build",
+					"jsonFile" : "directory-_deps.spdlog-build-Release-991dde8e5ccb4754702e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "/home/gavin/.cache/CPM/spdlog/9bc3bb9358b1b57301e26f90f4fcd31653abc584/spdlog",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "_deps/openmesh-build",
+					"childIndexes" : 
+					[
+						14,
+						15,
+						16,
+						17
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.openmesh-build-Release-a42cda2c6e56aa92c29f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "/home/gavin/.cache/CPM/openmesh/a549ba9d4a6604b06aa5dd111630d534f573cdf8/OpenMesh"
+				},
+				{
+					"build" : "_deps/openmesh-build/src/OpenMesh/Core",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.openmesh-build.src.OpenMesh.Core-Release-4a5557a2f3b9fc87a756.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3.0"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 8,
+					"source" : "/home/gavin/.cache/CPM/openmesh/a549ba9d4a6604b06aa5dd111630d534f573cdf8/OpenMesh/src/OpenMesh/Core",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "_deps/openmesh-build/src/OpenMesh/Tools",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.openmesh-build.src.OpenMesh.Tools-Release-0e77a65eff2018c428ea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3.0"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 8,
+					"source" : "/home/gavin/.cache/CPM/openmesh/a549ba9d4a6604b06aa5dd111630d534f573cdf8/OpenMesh/src/OpenMesh/Tools",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "_deps/openmesh-build/src/OpenMesh/Apps",
+					"jsonFile" : "directory-_deps.openmesh-build.src.OpenMesh.Apps-Release-b90cb09bfeefa8023f3a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3.0"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 8,
+					"source" : "/home/gavin/.cache/CPM/openmesh/a549ba9d4a6604b06aa5dd111630d534f573cdf8/OpenMesh/src/OpenMesh/Apps"
+				},
+				{
+					"build" : "_deps/openmesh-build/Doc",
+					"jsonFile" : "directory-_deps.openmesh-build.Doc-Release-1dae64217fde6f989514.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3.0"
+					},
+					"parentIndex" : 13,
+					"projectIndex" : 8,
+					"source" : "/home/gavin/.cache/CPM/openmesh/a549ba9d4a6604b06aa5dd111630d534f573cdf8/OpenMesh/Doc",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						5,
+						6,
+						7,
+						8
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ObjCDT",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						4,
+						5,
+						6,
+						8,
+						9
+					],
+					"name" : "Eigen3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "EigenBlas",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						5,
+						9,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "EigenLapack",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						11,
+						12,
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "EigenDemos",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "CLI11",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "FMT",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "spdlog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13,
+						14,
+						15,
+						16,
+						17
+					],
+					"name" : "OpenMesh",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ObjCDT::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ObjCDT-Release-a2f6a8439cf0214ef197.json",
+					"name" : "ObjCDT",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "OpenMeshCore::@be75b8f49d519472074f",
+					"jsonFile" : "target-OpenMeshCore-Release-fcc09e4eccc29a83076a.json",
+					"name" : "OpenMeshCore",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "OpenMeshCoreStatic::@be75b8f49d519472074f",
+					"jsonFile" : "target-OpenMeshCoreStatic-Release-6f58926de1587f289aab.json",
+					"name" : "OpenMeshCoreStatic",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "OpenMeshTools::@2a32f7024e79914d4ffc",
+					"jsonFile" : "target-OpenMeshTools-Release-8cd6dedd04ee452d1e2e.json",
+					"name" : "OpenMeshTools",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "OpenMeshToolsStatic::@2a32f7024e79914d4ffc",
+					"jsonFile" : "target-OpenMeshToolsStatic-Release-9243b5f669fe7b61167d.json",
+					"name" : "OpenMeshToolsStatic",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "blas::@3eb8bc4bb112db542e2f",
+					"jsonFile" : "target-blas-Release-5b7968ee4560131b4d40.json",
+					"name" : "blas",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "demos::@8f8b5571d8fc18e53e8f",
+					"jsonFile" : "target-demos-Release-04cc0f30054e30721f93.json",
+					"name" : "demos",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "doc::@ece2e94f590986da83e7",
+					"jsonFile" : "target-doc-Release-b8d817442a02e236ec67.json",
+					"name" : "doc",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "doc-install::@ece2e94f590986da83e7",
+					"jsonFile" : "target-doc-install-Release-bd2fcde1b5ea3bd54344.json",
+					"name" : "doc-install",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "eigen_blas::@3eb8bc4bb112db542e2f",
+					"jsonFile" : "target-eigen_blas-Release-d4b41604d88cfebab3aa.json",
+					"name" : "eigen_blas",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "eigen_blas_static::@3eb8bc4bb112db542e2f",
+					"jsonFile" : "target-eigen_blas_static-Release-99fc3632bd0aa15382e6.json",
+					"name" : "eigen_blas_static",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "eigen_lapack::@82c4f821022399cdeaa9",
+					"jsonFile" : "target-eigen_lapack-Release-93ea8b069cd4c65d3794.json",
+					"name" : "eigen_lapack",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "eigen_lapack_static::@82c4f821022399cdeaa9",
+					"jsonFile" : "target-eigen_lapack_static-Release-57e68889f54145baf1ac.json",
+					"name" : "eigen_lapack_static",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "fmt::@976f4f0bee90b99ecdb6",
+					"jsonFile" : "target-fmt-Release-90b86dd44a0efaa69e71.json",
+					"name" : "fmt",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "lapack::@82c4f821022399cdeaa9",
+					"jsonFile" : "target-lapack-Release-e5306337d140cd70218b.json",
+					"name" : "lapack",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "spbenchsolver::@d92b9274087880e865c4",
+					"jsonFile" : "target-spbenchsolver-Release-d41a2583134fc402e772.json",
+					"name" : "spbenchsolver",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "spdlog::@eb35cfce7893ccfeff1e",
+					"jsonFile" : "target-spdlog-Release-7a464711925aa337c2ab.json",
+					"name" : "spdlog",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "spsolver::@d92b9274087880e865c4",
+					"jsonFile" : "target-spsolver-Release-53beb205302a74cc8080.json",
+					"name" : "spsolver",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "test_sparseLU::@d92b9274087880e865c4",
+					"jsonFile" : "target-test_sparseLU-Release-bfe4fbcb738fff10ed3b.json",
+					"name" : "test_sparseLU",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@a7f6cda76e36d828b47e",
+					"jsonFile" : "target-uninstall-Release-b4e7ff27e478ae671d71.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/gavin/ObjCDT/out/build/release",
+		"source" : "/home/gavin/ObjCDT"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
