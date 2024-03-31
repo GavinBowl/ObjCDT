@@ -10,7 +10,22 @@
 #include "mesh.h"
 
 namespace objcdt::SurfaceMesh{
-    CADMesh::CADMesh SurfaceMesh::triangulationByCDT() {
+    CADMesh::CADMesh SurfaceMesh::triangulationVerticesOnly() {
+        SPDLOG_INFO("[SurfaceMesh] perform triangulation by CDT");
+        
+        for (const auto &face : mesh.faces()) {
+            CDT::Triangulation<double> cdt;
+            hashableVertexToVertexId.clear();
+            vertexIdToVertexHandle.clear();
+            prepareVerticesInfo(cdt,face);
+            cdt.eraseSuperTriangle();
+            constructTriangulatedMesh(cdt);
+        }
+        
+        return triMesh;
+    }
+
+    CADMesh::CADMesh SurfaceMesh::triangulationVerticesAndEdges() {
         SPDLOG_INFO("[SurfaceMesh] perform triangulation by CDT");
         
         for (const auto &face : mesh.faces()) {
@@ -30,12 +45,12 @@ namespace objcdt::SurfaceMesh{
     void SurfaceMesh::prepareVerticesInfo(CDT::Triangulation<double> &cdt,const CADMesh::Face& face) {
         std::vector<CDT::V2d<double>> vertices;
 
-        // notice: idx start from 1
-        int idx = 1;
+        int idx = 0;
         for (const auto &vh: face.vertices()) {
             // construct vertices info
             Eigen::Vector3d v_3d = mesh.point(vh);
-            vertices.emplace_back(CDT::V2d<double>::make(v_3d.x(),v_3d.y()));
+            // TODO: convert 3D -> 2D in a general way
+            vertices.emplace_back(CDT::V2d<double>::make(v_3d.x(),v_3d.z()));
             // update map
             vertexIdToVertexHandle[idx] = vh;
             auto meshPtr = std::make_shared<CADMesh::CADMesh>(mesh);
@@ -44,9 +59,9 @@ namespace objcdt::SurfaceMesh{
             idx++;
         }
 
-        SPDLOG_DEBUG("[vertices]");
+        SPDLOG_INFO("[vertices]");
         for (const auto &v : vertices) {
-            SPDLOG_DEBUG("({}, {})",v.x,v.y);
+            SPDLOG_INFO("({}, {})",v.x,v.y);
         }
 
         cdt.insertVertices(vertices);

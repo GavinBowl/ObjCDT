@@ -28,9 +28,10 @@ int main(int argc, char **argv) {
     try {
         objcdt::CADMesh::remove_duplication(input);
         objcdt::CADMesh::CADMesh mesh = objcdt::CADMesh::read_mesh(input);
-        objcdt::SurfaceMesh::SurfaceMesh surfaceMesh(std::move(mesh));
+        objcdt::SurfaceMesh::SurfaceMesh surfaceMesh(mesh);
 
-        objcdt::CADMesh::CADMesh triMesh = surfaceMesh.triangulationByCDT();
+        // objcdt::CADMesh::CADMesh triMesh = surfaceMesh.triangulationVerticesOnly();
+        objcdt::CADMesh::CADMesh triMesh = surfaceMesh.triangulationVerticesAndEdges();
 
         objcdt::CADMesh::write_mesh(triMesh,output);
 

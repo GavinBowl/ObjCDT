@@ -1,3 +1,0 @@
-/home/gavin/ObjCDT/out/build/release/_deps/cdt-subbuild/CMakeFiles/cdt-populate.dir
-/home/gavin/ObjCDT/out/build/release/_deps/cdt-subbuild/CMakeFiles/edit_cache.dir
-/home/gavin/ObjCDT/out/build/release/_deps/cdt-subbuild/CMakeFiles/rebuild_cache.dir

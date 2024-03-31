@@ -11,8 +11,9 @@ namespace objcdt::SurfaceMesh{
 
 class SurfaceMesh {
 public:
-    SurfaceMesh(CADMesh::CADMesh&& _mesh) : mesh(_mesh), triMesh() {}
-    CADMesh::CADMesh triangulationByCDT();
+    SurfaceMesh(const CADMesh::CADMesh& _mesh) : mesh(_mesh), triMesh() {}
+    CADMesh::CADMesh triangulationVerticesOnly();
+    CADMesh::CADMesh triangulationVerticesAndEdges();
 private:
     CADMesh::CADMesh mesh;
     CADMesh::CADMesh triMesh = {};
